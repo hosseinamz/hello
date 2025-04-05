@@ -1,0 +1,15 @@
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Please enter a number:");
+        int number = int.Parse(Console.ReadLine());
+
+        if (number % 7 == 0)
+        {
+            Console.WriteLine("Yes!");
+        }
+        else
+        {
+            int result = number * 3;
+            Console.WriteLine($": {result}");
+        }
+    }
