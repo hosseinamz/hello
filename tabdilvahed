@@ -1,0 +1,20 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        Console.Clear();
+        Console.WriteLine("Convert Inches to Centimeters");
+
+        Console.Write("Please enter the value in inches: ");
+        double inch = Convert.ToDouble(Console.ReadLine());
+
+        double cm = InchToCm(inch);
+        Console.WriteLine($"{inch} inches is equal to {cm} CM.");
+    }
+
+    static double InchToCm(double inch)
+    {
+        return inch * 2.54;
+    }
+}
