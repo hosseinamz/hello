@@ -1,6 +1,4 @@
- static void Main(string[] args)
- {
-     Console.WriteLine("Please enter the side length of the square:");
+      Console.WriteLine("Please enter the side length of the square:");
      double sideLength = Convert.ToDouble(Console.ReadLine());
 
      double area = Math.Pow(sideLength, 2);
@@ -8,4 +6,4 @@
 
      Console.WriteLine($"The area of the square is: {area}");
      Console.WriteLine($"The perimeter of the square is: {perimeter}");
- }
+ 
