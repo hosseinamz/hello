@@ -1,0 +1,25 @@
+static void Main()
+{
+    Console.Clear();
+    Console.WriteLine("Enter numbers to sum. Enter 0 to stop and display the total.");
+
+    int sum = 0;
+    int number;
+
+    while (true)
+    {
+        Console.Write("Enter a number: ");
+        number = Convert.ToInt32(Console.ReadLine());
+
+        if (number == 0)
+        {
+            break;
+        }
+
+        sum += number;
+        Console.WriteLine($"Current Sum: {sum}");
+    }
+
+    Console.WriteLine($"The final sum of the entered numbers is: {sum}");
+    Console.ReadLine(); // این خط برای نگه داشتن پنجره کنسول باز تا وقتی که کاربر Enter را بزند
+}
