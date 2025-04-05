@@ -2,7 +2,7 @@
     Console.WriteLine("Enter numbers to sum. Enter 0 to stop and display the total.");
 
     int sum = 0;
-    int number;
+    int number; 
 
     while (true)
     {
