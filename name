@@ -1,0 +1,7 @@
+using System.Text;
+Console.WriteLine("enter your name: ");
+string firstname = Console.ReadLine ();
+Console.WriteLine("enter your lastname: ");
+string lastname = Console.ReadLine();
+Console.WriteLine("your full name is:" + firstname + "" + lastname);
+Console.ReadKey();
