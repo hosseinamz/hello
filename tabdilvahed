@@ -1,7 +1,4 @@
-using System;
-class Program
-{
-    static void Main()
+      static void Main()
     {
         Console.Clear();
         Console.WriteLine("Convert Inches to Centimeters");
@@ -17,4 +14,3 @@ class Program
     {
         return inch * 2.54;
     }
-}
