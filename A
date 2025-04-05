@@ -1,11 +1,9 @@
  int height = 17;
  int width = height - 1;
-
  for (int i = 0; i < height; i++)
  {
      for (int j = 0; j <= 2 * width; j++)
      {
-
          if (j == width - i || j == width + i || (i == height / 2 && j > width - i && j < width + i))
          {
              Console.Write("*");
@@ -16,7 +14,5 @@
          }
      }
      Console.WriteLine();
- }
-
-        
+ }     
  Console.ReadKey();
