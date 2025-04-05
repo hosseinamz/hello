@@ -1,0 +1,12 @@
+    int number;
+    long product = 1;
+    Console.WriteLine("Enter numbers ):");
+    while (true)
+    {
+        number = int.Parse(Console.ReadLine());
+        if (number == 0)
+            break;
+        product *= number;
+    }
+    Console.WriteLine("The product of the entered numbers is: " + product);
+}
