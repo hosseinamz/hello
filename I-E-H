@@ -1,0 +1,60 @@
+    int height = 7;
+    int width = 5;
+
+
+    DrawI(height, width);
+    Console.WriteLine();
+
+    DrawH(height, width);
+    Console.WriteLine();
+
+
+    DrawE(height, width);
+    Console.WriteLine();
+
+    Console.ReadKey();
+}
+
+static void DrawI(int height, int width)
+{
+    for (int i = 0; i < height; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            if (i == 0 || i == height - 1 || j == width / 2)
+                Console.Write("*");
+            else
+                Console.Write(" ");
+        }
+        Console.WriteLine();
+    }
+}
+
+static void DrawH(int height, int width)
+{
+    for (int i = 0; i < height; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            if (j == 0 || j == width - 1 || i == height / 2)
+                Console.Write("*");
+            else
+                Console.Write(" ");
+        }
+        Console.WriteLine();
+    }
+}
+
+static void DrawE(int height, int width)
+{
+    for (int i = 0; i < height; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            if (j == 0 || i == 0 || i == height / 2 || i == height - 1)
+                Console.Write("*");
+            else
+                Console.Write(" ");
+        }
+        Console.WriteLine();
+    }
