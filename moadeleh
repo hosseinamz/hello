@@ -1,0 +1,29 @@
+ static void Main()
+ {
+     Console.Clear();
+     Console.WriteLine("Check Roots of a Quadratic Equation");
+
+     Console.Write("Please enter the coefficient a: ");
+     double a = Convert.ToDouble(Console.ReadLine());
+
+     Console.Write("Please enter the coefficient b: ");
+     double b = Convert.ToDouble(Console.ReadLine());
+
+     Console.Write("Please enter the coefficient c: ");
+     double c = Convert.ToDouble(Console.ReadLine());
+
+     double discriminant = (b * b) - (4 * a * c);
+
+     if (discriminant > 0)
+     {
+         Console.WriteLine("The equation has two distinct real roots.");
+     }
+     else if (discriminant == 0)
+     {
+         Console.WriteLine("The equation has one real root.");
+     }
+     else
+     {
+         Console.WriteLine("The equation has no real roots.");
+     }
+ }
