@@ -1,6 +1,4 @@
-    static void Main()
-    {
-        Console.Clear();
+         Console.Clear();
         Console.WriteLine("Even Two-Digit Numbers:");
 
         for (int i = 10; i < 100; i++)
@@ -10,4 +8,3 @@
                 Console.WriteLine(i);
             }
         }
-    }
