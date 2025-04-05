@@ -1,6 +1,4 @@
-   static void Main()
-    {
-        Console.Clear();
+    Console.Clear();
         int rows = 3; 
 
         for (int i = 1; i <= rows; i++)
@@ -11,4 +9,3 @@
             }
             Console.WriteLine();
         }
-    }
