@@ -1,6 +1,4 @@
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Please enter a number:");
+     Console.WriteLine("Please enter a number:");
         int number = int.Parse(Console.ReadLine());
 
         if (number % 7 == 0)
@@ -12,4 +10,3 @@
             int result = number * 3;
             Console.WriteLine($": {result}");
         }
-    }
