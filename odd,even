@@ -1,6 +1,4 @@
- static void Main() 
- {
-     Console.Clear();
+  Console.Clear();
      Console.WriteLine("Check if a Number is Even or Odd");
 
      Console.Write("Please enter a number: ");
@@ -14,4 +12,3 @@
      {
          Console.WriteLine($"{number} is an odd number.");
      }
- }
