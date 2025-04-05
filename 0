@@ -1,6 +1,4 @@
-static void Main()
-{
-    Console.Clear();
+   Console.Clear();
     Console.WriteLine("Enter numbers to sum. Enter 0 to stop and display the total.");
 
     int sum = 0;
@@ -21,5 +19,4 @@ static void Main()
     }
 
     Console.WriteLine($"The final sum of the entered numbers is: {sum}");
-    Console.ReadLine(); // این خط برای نگه داشتن پنجره کنسول باز تا وقتی که کاربر Enter را بزند
-}
+    Console.ReadLine(); 
