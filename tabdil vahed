@@ -1,0 +1,6 @@
+double C, f;
+Console.Write("Please enter the temperature in Centigrade: ");
+C = Convert.ToDouble(Console.ReadLine());
+f = (C * 9 / 5) + 32;
+Console.WriteLine("Equivalent temperature in Fahrenheit: " + f);
+Console.ReadKey ();
