@@ -1,0 +1,20 @@
+double[,] score = new double[5, 2];
+            double[] avg = new double[5];
+
+            for(int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("\nStudent {0} : ", i+1);
+                for(int j = 0; j < 2; j++)
+                {
+                    Console.Write("Enter score {0} :", j + 1);
+                    score[i, j] = Convert.ToDouble(Console.ReadLine());
+                }
+            }
+
+            for(int i = 0; i < avg.Length; i++)
+            {
+                avg[i] = (score[i,0]+ score[i,1]) / 2;
+                Console.WriteLine("Student {0} 's Avarage is {1}", i + 1, avg[i]);
+
+            }
+            Console.ReadKey();
