@@ -1,0 +1,15 @@
+Console.Write("Enter Array Length: ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] a = new int[n];
+
+for (int i = 0; i < n; i++)
+{
+    Console.Write("Enter a number: \na[{0}] = ", i + 1);
+    a[i] = Int32.Parse(Console.ReadLine());
+}
+
+int sum = a[1] + a[3];
+Console.WriteLine("a[2] + a[4] = " + sum);
+
+
+Console.ReadKey();
