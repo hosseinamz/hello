@@ -1,0 +1,34 @@
+ List<string> c = new List<string>();
+ Console.Write("Enter Student Name: ");
+ string s = Console.ReadLine();
+
+ for (; ; )
+ {
+     if (s != "0")
+     {
+         c.Add(s);
+         Console.Write("Enter Student Name: ");
+         s = Console.ReadLine();
+
+     }
+     else
+         break;
+
+ }
+
+ c.Sort();
+ foreach (string i in c)
+ {
+     Console.WriteLine(i);
+ }
+ Console.WriteLine("_______________________________");
+ c.Reverse();
+ foreach (string i in c)
+ {
+     Console.WriteLine(i);
+ }
+ Console.WriteLine("_______________________________");
+
+          
+
+ Console.ReadKey();
