@@ -1,0 +1,23 @@
+Dictionary<string, int> std = new Dictionary<string, int>();
+
+for (int i = 0; i < 4; i++)
+{
+    Console.Write("Enter std name: ");
+    string s = Console.ReadLine();
+    Console.Write("Enter std num: ");
+    int d = Convert.ToInt32(Console.ReadLine());
+    std.Add(s, d);
+}
+Console.WriteLine("\n___________________");
+foreach (int i in std.Values)
+    Console.Write(i + "\t");
+
+Console.WriteLine("\n___________________");
+foreach (string i in std.Keys)
+    Console.Write(i + "\t");
+
+Console.WriteLine("\n___________________");
+foreach (KeyValuePair<string, int> h in std)
+    Console.WriteLine(h.Key + "\t" + h.Value);
+
+Console.ReadKey();
